@@ -9,6 +9,7 @@ def emotion_predictor(text):
         url='YOUR_SERVICE_URL'      # Replace with your service URL
     )
 
+
     # Get the emotion analysis result
     response = nlu.analyze(
         text=text,
